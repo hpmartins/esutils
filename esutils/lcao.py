@@ -63,7 +63,6 @@ def slater(r, t1, t2, a, b, pps, ppp, pds, pdp):
             return (np.sqrt(3)*(n**2)*l*pds+l*(1-2*n**2)*pdp)
 
 def lcao_oct(pps, pds, D, Ep, Dq, pos=0, typ=''):
-
     if typ == 'single':
         pos = np.array([
                 [1,  0,  0,  0,  0],
@@ -143,13 +142,6 @@ def lcao_oct(pps, pds, D, Ep, Dq, pos=0, typ=''):
     eva, evc = np.linalg.eig(H)
 
     char_l = np.array(char_l)
-
-#    if np.size(np.unique(char_c)) == 1:
-#        char_l[13] = 0
-#    else:
-#        char_l[25] = 0
-#        char_l[30] = 0
-#    print(char_l)
     char_c = np.array(char_c)
     char_a = np.zeros((sz, 4))
     for q in np.arange(sz):
@@ -160,15 +152,17 @@ def lcao_oct(pps, pds, D, Ep, Dq, pos=0, typ=''):
             char_a[q, 2*cn+1] = ((vec[(char_l == 2) & (char_c == cn)])**2).sum()
 
     out = np.real(np.column_stack((eva, char_a)))
-#    oc = np.real(np.round(out, 3))
-#    E, countE = np.unique(oc[:, 0], return_counts=True)
-#    out = np.zeros((np.size(E), np.size(oc, axis=1) - 1))
-#    for i in np.arange(np.size(E)):
-#        out[i, :] = oc[oc[:, 0] == E[i], 1:].sum(axis=0)
+    oc = np.real(np.round(out, 3))
+    
+    E, countE = np.unique(oc[:, 0], return_counts=True)
+    out = np.zeros((np.size(E), np.size(oc, axis=1) - 1))
+    
+    for i in np.arange(np.size(E)):
+       out[i, :] = oc[oc[:, 0] == E[i], 1:].sum(axis=0)
 
-    out = out[out[:,0].argsort()]
-    E = out[:, 0]
-    out = out[:, 1:]
+    # out = out[out[:,0].argsort()]
+    # E = out[:, 0]
+    # out = out[:, 1:]
     return E, out
 
 
