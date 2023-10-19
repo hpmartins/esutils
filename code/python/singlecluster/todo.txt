@@ -1,0 +1,15 @@
+# TODO
+# - Checar operador (dn -> dnC, etc)
+# - GUI?
+# - Testar existencia de cada parametro do input (criar funcao?)
+# - Parametros para personalizar plot (normalizacao, maximo, posicoes, ...)
+#   * criar uma funcao que testa para ver se a flag esta em C.pm. Se nao estiver,
+#     buscar numa tabela de valores padroes. Ou melhor: ver se tem como definir
+#     um C.pm default que é sobre-escrito ao carregar o input. Mesmo assim, precisa
+#     de algo para checar se existe (para .exp e outros, e os proprios parametros)
+# - Selecionar dados no proprio grafico com o mouse e mostrar a composicao.
+#   * http://matplotlib.org/examples/event_handling/data_browser.html
+#   * http://stackoverflow.com/questions/7969352/matplotlib-interactively-select-points-or-locations
+#   * http://matplotlib.org/examples/event_handling/pick_event_demo.html
+#   * holy shit http://stackoverflow.com/questions/13306519/get-data-from-plot-with-matplotlib
+# - Colocar constantes globais para facilitar a leitura do codigo (ao inves de 0->GS, 2->CS, etc, estilo C)

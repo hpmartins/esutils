@@ -1,0 +1,84 @@
+# Options
+export: 1
+plot: 1
+dev: 0 # nao faz voigt, nao faz nada demorado. so pra testes
+
+# CI config
+start:    [1,1,1,0,0, 1,0,0,0,0]
+coherent: [0,0,0,0,0, 1,1,1,0,0]
+maxholes: 4
+rs_no_elec: 0
+
+# Main model parameters
+D:  1.4
+U:  5.0
+Ts: 1.7
+
+# Multiplet parameters
+Dq: 0.43
+J:  0.75
+
+# Coherent band parameters
+Dc: 0.6
+Tc: 0.30
+
+# Ligand parameters
+pp: 0
+pps: 0.70
+Ep: -6.7
+
+# Slater integrals and Kanamori parameters
+kanamori: 0
+F_red: 0.0
+F2: 0
+F4: 0
+
+# Hybridization renormalization
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+
+coreopt:
+    exp: 'exp/SrRuO3_core2.dat'
+    bg: 0
+    so: 22.3
+    p: 463.2
+    wG: 1.0
+    wL: 1.0
+    aL: 0.30
+
+    #coreopt:
+    #exp: 'exp/SrRuO3_core.dat'
+    #bg: 1
+    #so: 22.3
+    #p: 463.2
+    #wG: 0.6
+    #wL: 0.5
+    #aL: 0.30
+
+    #exp: 'exp/SrRuO3_core.dat'
+    #bg: 0
+    #so: 2.8
+    #p: 44.2
+    #wG: 1.6
+    #wL: 0.5
+    #aL: 0.30
+
+
+vbopt:
+    exp: 'exp/SrRuO3_VB.dat'
+    bg: 0
+    csecd: 1
+    csecp: 0.09
+    octmult: 1
+    wG_oct: 1.0
+    wG: 0.70
+    wL: 0.20
+    aL: 0.20
+    p: 0.65
+    
+xasopt:
+    exp: 'exp/SrRuO3_XAS.dat'
+    wG: 0.4
+    wL: 0.05
+    aL: 0.1
+    p: 529.13

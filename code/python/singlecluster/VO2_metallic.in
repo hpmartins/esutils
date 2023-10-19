@@ -1,0 +1,66 @@
+# Options
+export: 0
+plot: 1
+dev: 0 # nao faz voigt, nao faz nada demorado. so pra testes
+
+# CI config
+start:    [1,1,1,0,0, 1,0,0,0,0]
+coherent: [1,1,1,0,0, 1,1,1,0,0]
+maxholes: 6
+
+rs_no_elec: 1
+
+# Main model parameters
+D:  2.5
+U:  4.5
+Ts: 3.6
+
+# Multiplet parameters
+Dq: 0.27
+J:  0.19
+
+# Coherent band parameters
+Dc: 1.4
+Tc: 0.2
+
+# Ligand parameters
+pp: 1
+pps: 0.85
+Ep: -6.0
+
+# Slater integrals and Kanamori parameters
+kanamori: 0
+F_red: 0.0
+F2: 0
+F4: 0
+
+# Hybridization renormalization
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+
+coreopt:
+    exp: 'exp/RuO2_core.dat'
+    so: 22.4
+    p: 462.4
+    wG: 1.8
+    wL: 0.5
+    aL: 0.5
+
+vbopt:
+    exp: 'exp/RuO2_VB.dat'
+    bg: 1
+    csecd: 1.0
+    csecp: 0.15
+    csecoct: 0.10
+    wG_oct: 0.8
+    wG: 0.6
+    wL: 0.01
+    aL: 0.0
+    p: 0.2
+    
+xasopt:
+    exp: 'exp/RuO2_XAS.dat'
+    wG: 0.5
+    wL: 0.2
+    aL: 0.5
+    p: 528.8

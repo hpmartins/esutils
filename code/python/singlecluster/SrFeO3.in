@@ -1,0 +1,66 @@
+# Options
+export: 1
+plot: 1
+dev: 0 # nao faz voigt, nao faz nada demorado. so pra testes
+
+# CI config
+start:    [1,1,1,1,0, 0,0,0,0,0]
+coherent: [0,0,0,0,0, 0,0,0,0,0]
+maxholes: 10
+rs_no_elec: 0
+
+# Main model parameters
+D:  1.0
+U:  7.0
+Ts: 1.95
+
+# Multiplet parameters
+Dq: 0.13
+J:  0.62
+
+# Coherent band parameters
+Dc: 0.0
+Tc: 0.0
+
+# Ligand parameters
+pp: 0
+pps: 0.7
+Ep: -6.0
+
+# Slater integrals and Kanamori parameters
+kanamori: 1
+F_red: 0.4
+F2: 13.1427
+F4: 8.26513752
+
+# Hybridization renormalization
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+
+coreopt:
+    exp: 'exp/SrFeO3_core.dat'
+    bg: 0
+    so: 13.2
+    p: 0.0
+    wG: 0.9
+    wL: 1.2
+    aL: 0.17
+
+vbopt:
+    exp: 'exp/SrFeO3_VB.dat'
+    bg: 0
+    csecd: 1
+    csecp: 0.05
+    octmult: 1.0
+    wG_oct: 0.90
+    wG: 0.60
+    wL: 0.35
+    aL: 0.25
+    p: 0.50
+    
+xasopt:
+    exp: 'exp/SrFeO3_XAS.dat'
+    wG: 0.6
+    wL: 0.35
+    aL: 0.2
+    p: 528.0

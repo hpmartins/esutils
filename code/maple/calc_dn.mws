@@ -1,0 +1,260 @@
+{VERSION 13 0 "Windows Vista" "13.0" }
+{USTYLETAB {PSTYLE "Ordered List 1" -1 200 1 {CSTYLE "" -1 -1 "Times"
+ 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Ordered List 2" -1 201 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 36 2 0 2 2 -1 1 }{PSTYLE "Ordered
+ List 3" -1 202 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+0 0 1 }1 1 0 0 3 3 2 72 2 0 2 2 -1 1 }{PSTYLE "Ordered List 4" -1 203 
+1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3
+ 3 2 108 2 0 2 2 -1 1 }{PSTYLE "Ordered List 5" -1 204 1 {CSTYLE "" -1
+ -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 144 2 0 2 
+2 -1 1 }{PSTYLE "Author" -1 19 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1
+ 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 8 8 2 0 2 0 2 2 -1 1 }{PSTYLE "Warning" 
+-1 7 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }
+1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Annotation Title" -1 205 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }3 1 0 0 12 
+12 2 0 2 0 2 2 -1 1 }{PSTYLE "Fixed Width" -1 17 1 {CSTYLE "" -1 -1 "C
+ourier" 1 10 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1
+ }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2
+ 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Line Printe
+d Output" -1 6 1 {CSTYLE "" -1 -1 "Courier" 1 12 0 0 255 1 2 2 2 2 2 1
+ 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Help" -1 10 1 {CSTYLE
+ "" -1 -1 "Courier" 1 9 0 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0
+ 2 0 2 2 -1 1 }{PSTYLE "Text Output" -1 2 1 {CSTYLE "" -1 -1 "Courier"
+ 1 9 0 0 0 1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Diagnostic" -1 9 1 {CSTYLE "" -1 -1 "Courier" 1 12 40 120 40 
+1 2 2 2 2 2 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Normal" 
+-1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 
+0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1
+ -1 "Times" 1 9 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }3 1 0 0 0 0 2 0 2 0 2 2 
+-1 1 }{PSTYLE "Dash Item" -1 16 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Hyperlin
+kError" -1 206 1 {CSTYLE "" -1 -1 "Courier" 1 12 255 0 255 1 2 2 1 2 2
+ 1 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Error" -1 8 1 
+{CSTYLE "" -1 -1 "Courier" 1 12 255 0 255 1 2 2 2 2 2 1 1 0 0 1 }1 1 0
+ 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Title" -1 18 1 {CSTYLE "" -1 -1 "Tim
+es" 1 18 0 0 0 1 2 1 2 2 2 2 1 0 0 1 }3 1 0 0 12 12 2 0 2 0 2 2 -1 1 }
+{PSTYLE "Heading 1" -1 3 1 {CSTYLE "" -1 -1 "MS Serif" 1 18 0 0 0 1 2 
+1 2 2 2 2 1 0 0 1 }1 1 0 0 8 4 2 0 2 0 2 2 -1 1 }{PSTYLE "Bullet Item"
+ -1 15 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 
+1 0 0 3 3 2 0 2 0 2 2 -1 1 }{PSTYLE "Heading 4" -1 20 1 {CSTYLE "" -1 
+-1 "MS Serif" 1 12 0 0 0 1 1 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 
+2 -1 1 }{PSTYLE "Heading 3" -1 5 1 {CSTYLE "" -1 -1 "MS Serif" 1 14 0 
+0 0 1 1 1 2 2 2 2 1 0 0 1 }1 1 0 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Head
+ing 2" -1 4 1 {CSTYLE "" -1 -1 "MS Serif" 1 16 0 0 0 1 2 1 2 2 2 2 1 0
+ 0 1 }1 1 0 0 8 2 2 0 2 0 2 2 -1 1 }{PSTYLE "HyperlinkWarning" -1 207 
+1 {CSTYLE "" -1 -1 "Courier" 1 12 0 0 255 1 2 2 1 2 2 1 1 0 0 1 }1 1 0
+ 0 0 0 2 0 2 0 2 2 -1 1 }{PSTYLE "Left Justified Maple Output" -1 12 1
+ {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 0 
+0 2 0 2 0 2 2 -1 1 }{PSTYLE "List Item" -1 14 1 {CSTYLE "" -1 -1 "Time
+s" 1 12 0 0 0 1 2 2 2 2 2 2 1 0 0 1 }1 1 0 0 3 3 2 0 2 0 2 2 -1 1 }
+{CSTYLE "Annotation Text" -1 200 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 
+0 1 }{CSTYLE "Help Maple Name" -1 35 "Times" 1 12 104 64 92 1 2 1 2 2 
+2 2 0 0 0 1 }{CSTYLE "2D Math Bold" -1 5 "Times" 1 12 0 0 0 1 2 1 2 2 
+2 2 0 0 0 1 }{CSTYLE "Help Menus" -1 36 "Times" 1 12 0 0 0 1 2 1 2 2 2
+ 2 0 0 0 1 }{CSTYLE "2D Math Italic" -1 3 "Times" 1 12 0 0 0 1 1 2 2 2
+ 2 2 0 0 0 1 }{CSTYLE "Help Normal" -1 30 "Times" 1 12 0 0 0 1 2 2 2 2
+ 2 2 0 0 0 1 }{CSTYLE "Plot Text" -1 28 "Times" 1 8 0 0 0 1 2 2 2 2 2 
+2 0 0 0 1 }{CSTYLE "Help Nonterminal" -1 24 "Courier" 1 12 0 0 0 1 2 1
+ 2 2 2 2 0 0 0 1 }{CSTYLE "Help Heading" -1 26 "Times" 1 14 0 0 0 1 2 
+1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Italic" -1 42 "Times" 1 12 0 0 0 1 1 
+2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Variable" -1 25 "Courier" 1 12 0 0 0 
+1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Italic Bold" -1 40 "Times" 1 12 0
+ 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Default" -1 38 "Times" 1 12 0 0 0
+ 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Help Underlined Italic" -1 43 "Times"
+ 1 12 0 0 0 1 1 2 1 2 2 2 0 0 0 1 }{CSTYLE "Maple Input" -1 0 "Courier
+" 1 9 0 0 0 1 2 1 2 2 1 2 0 0 0 1 }{CSTYLE "2D Output" -1 20 "Times" 1
+ 9 0 0 0 1 2 2 2 2 2 1 0 0 0 1 }{CSTYLE "2D Math Bold Small" -1 10 "Ti
+mes" 1 1 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Small" -1 7 "Ti
+mes" 1 1 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Page Number" -1 33 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Output Labels" -1 29 "T
+imes" 1 8 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Plot Title" -1 27 "Tim
+es" 1 10 0 0 0 1 2 1 2 2 2 2 0 0 0 1 }{CSTYLE "Help Emphasized" -1 22 
+"Times" 1 12 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Symbol 2" 
+-1 16 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Itali
+c Small208" -1 201 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2
+D Math Italic Small207" -1 202 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1
+ }{CSTYLE "Maple Comment" -1 21 "Courier" 1 12 0 0 0 1 2 1 2 2 2 2 0 0
+ 0 1 }{CSTYLE "2D Math Italic Small209" -1 203 "Times" 1 1 0 0 0 1 1 2
+ 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small204" -1 204 "Times" 1 1
+ 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "Maple Input Placeholder" -1 205
+ "Courier" 1 12 200 0 200 1 2 1 2 2 1 2 0 0 0 1 }{CSTYLE "Code" -1 206
+ "Courier" 1 12 255 0 0 1 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic
+ Small206" -1 207 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D
+ Math Italic Small205" -1 208 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 
+}{CSTYLE "2D Math Italic Small210213" -1 209 "Times" 1 1 0 0 0 1 1 2 2
+ 2 2 2 0 0 0 1 }{CSTYLE "2D Inert Output" -1 210 "Times" 1 12 144 144 
+144 1 2 2 2 2 1 2 0 0 0 1 }{CSTYLE "2D Math Italic Small" -1 211 "Time
+s" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math Italic Small21021
+1" -1 212 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }{CSTYLE "2D Math It
+alic Small210212" -1 213 "Times" 1 1 0 0 0 1 1 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "2D Comment" -1 18 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 0 0 1 }
+{CSTYLE "Help Underlined Bold" -1 41 "Times" 1 12 0 0 0 1 1 1 2 2 2 2 
+0 0 0 1 }{CSTYLE "Copyright" -1 34 "Times" 1 10 0 0 0 1 2 2 2 2 2 2 0 
+0 0 1 }{CSTYLE "Hyperlink" -1 17 "MS Serif" 1 12 0 128 128 1 2 2 1 2 2
+ 2 0 0 0 1 }{CSTYLE "Help Underlined" -1 44 "Times" 1 12 0 0 0 1 2 2 1
+ 2 2 2 0 0 0 1 }{CSTYLE "Prompt" -1 1 "Courier" 1 12 0 0 0 1 2 1 2 2 2
+ 2 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 0 
+0 0 1 }{CSTYLE "2D Input" -1 19 "Times" 1 9 0 0 0 1 2 2 2 2 1 2 0 0 0 
+1 }{CSTYLE "2D Math Italic Small210" -1 214 "Times" 1 1 0 0 0 1 1 2 2 
+2 2 2 0 0 0 1 }{CSTYLE "Header and Footer" -1 215 "Times" 1 10 0 0 0 1
+ 2 2 2 2 2 2 0 0 0 1 }{CSTYLE "Text" -1 216 "Times" 1 12 0 0 0 1 2 2 2
+ 2 2 2 0 0 0 1 }{CSTYLE "Help Notes" -1 37 "Times" 1 12 0 0 0 1 2 1 2 
+2 2 2 0 0 0 1 }{CSTYLE "Help Bold" -1 39 "Times" 1 12 0 0 0 1 2 1 2 2 
+2 2 0 0 0 1 }{CSTYLE "Equation Label" -1 217 "Times" 1 12 0 0 0 1 2 1 
+2 2 2 2 0 0 0 1 }{CSTYLE "LaTeX" -1 32 "Times" 1 12 0 0 0 1 2 2 2 2 2 
+2 0 0 0 1 }{CSTYLE "Popup" -1 31 "Times" 1 12 0 128 128 1 1 2 1 2 2 2 
+0 0 0 1 }{CSTYLE "Dictionary Hyperlink" -1 45 "MS Serif" 1 12 147 0 15
+ 1 2 2 1 2 2 2 0 0 0 1 }{CSTYLE "Help Fixed" -1 23 "Courier" 1 10 0 0 
+0 1 2 2 2 2 2 2 0 0 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "restart:\n" }
+{MPLTEXT 1 0 14 "with(linalg):\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 
+9 "n  := 4:\n" }{MPLTEXT 1 0 12 "gs := 11-n:\n" }{MPLTEXT 1 0 1 "\n" }
+{MPLTEXT 1 0 16 "## Ground state\n" }{MPLTEXT 1 0 39 "hGS := array(1..
+gs, 1..gs, symmetric):\n" }{MPLTEXT 1 0 66 "for i from 1 to gs do for \+
+j from 1 to gs do hGS[i,j] := 0: od od:\n" }{MPLTEXT 1 0 1 "\n" }
+{MPLTEXT 1 0 14 "## Core state\n" }{MPLTEXT 1 0 39 "hCS := array(1..gs
+, 1..gs, symmetric):\n" }{MPLTEXT 1 0 66 "for i from 1 to gs do for j \+
+from 1 to gs do hCS[i,j] := 0: od od:\n" }{MPLTEXT 1 0 1 "\n" }
+{MPLTEXT 1 0 17 "## Removal state\n" }{MPLTEXT 1 0 42 "hRS := array(1.
+.gs+1, 1..gs+1, symmetric):" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 70 "fo
+r i from 1 to gs+1 do for j from 1 to gs+1 do hRS[i,j] := 0: od od:\n"
+ }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 18 "## Addition state\n" }{MPLTEXT
+ 1 0 43 "hAS := array(1..gs-1, 1..gs-1, symmetric):\n" }{MPLTEXT 1 0 
+69 "for i from 1 to gs-1 do for j from 1 to gs-1 do hAS[i,j] := 0: od \+
+od:" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 38 "#####
+################################\n" }{MPLTEXT 1 0 38 "###          Par
+\342metros           ###\n" }{MPLTEXT 1 0 38 "########################
+#############\n" }{MPLTEXT 1 0 12 "Par\342metros;\n" }{MPLTEXT 1 0 1 "
+\n" }{MPLTEXT 1 0 19 "fname := \"SrFeO3\";\n" }{MPLTEXT 1 0 1 "\n" }
+{MPLTEXT 1 0 9 "#SrFeO3\n#" }{MPLTEXT 1 0 13 "Delta := 0;\n#" }
+{MPLTEXT 1 0 11 "U := 7.5;\n#" }{MPLTEXT 1 0 10 "T := 1.7;\n" }
+{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 5 "#NiO\n" }{MPLTEXT 1 0 1 "#" }
+{MPLTEXT 1 0 14 "Delta := 4.0:\n" }{MPLTEXT 1 0 1 "#" }{MPLTEXT 1 0 
+10 "U := 7.5:\n" }{MPLTEXT 1 0 1 "#" }{MPLTEXT 1 0 10 "T := 1.5:\n" }
+{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 20 "delta := De
+lta - Q:\n" }{MPLTEXT 1 0 11 "Q:=U/0.83:\n" }{MPLTEXT 1 0 1 "\n" }
+{MPLTEXT 1 0 38 "#####################################\n" }{MPLTEXT 1 
+0 38 "###           Elementos           ###\n" }{MPLTEXT 1 0 38 "#####
+################################\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 
+0 38 "U_coef := proc(x::integer, w::string)\n" }{MPLTEXT 1 0 24 "     \+
+       local coef:\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 56 "         \+
+   if   w = \"as\" then coef := binomial(x,x-2):\n" }{MPLTEXT 1 0 58 "
+            elif w = \"rs\" then coef := binomial(x-2,x-4):\n" }
+{MPLTEXT 1 0 52 "            else coef := binomial(x-1,x-3): end if:\n
+" }{MPLTEXT 1 0 10 "end proc:\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 
+24 "for i from 1 to gs+1 do\n" }{MPLTEXT 1 0 16 "  if i = 1 then\n" }
+{MPLTEXT 1 0 18 "    hRS[i,i] := U:" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 
+0 7 "  else\n" }{MPLTEXT 1 0 24 "    if i <= (gs+1) then\n" }{MPLTEXT 
+1 0 51 "      hRS[i,i] := (i-1)*Delta + U_coef(i, \"rs\")*U:\n" }
+{MPLTEXT 1 0 12 "    end if:\n" }{MPLTEXT 1 0 20 "    if i <= gs then
+\n" }{MPLTEXT 1 0 51 "      hGS[i,i] := (i-1)*Delta + U_coef(i, \"gs\"
+)*U:\n" }{MPLTEXT 1 0 51 "      hCS[i,i] := (i-1)*delta + U_coef(i, \"
+cs\")*U:\n" }{MPLTEXT 1 0 12 "    end if:\n" }{MPLTEXT 1 0 24 "    if \+
+i <= (gs-1) then\n" }{MPLTEXT 1 0 51 "      hAS[i,i] := (i-1)*Delta + \+
+U_coef(i, \"as\")*U:\n" }{MPLTEXT 1 0 12 "    end if:\n" }{MPLTEXT 1 
+0 10 "  end if:\n" }{MPLTEXT 1 0 21 "  if i < (gs+1) then\n" }{MPLTEXT
+ 1 0 34 "    hRS[i,i+1] := sqrt(gs+1-i)*T:\n" }{MPLTEXT 1 0 10 "  end \+
+if:\n" }{MPLTEXT 1 0 17 "  if i < gs then\n" }{MPLTEXT 1 0 32 "    hGS
+[i,i+1] := sqrt(gs-i)*T:\n" }{MPLTEXT 1 0 32 "    hCS[i,i+1] := sqrt(g
+s-i)*T:\n" }{MPLTEXT 1 0 10 "  end if:\n" }{MPLTEXT 1 0 21 "  if i < (
+gs-1) then\n" }{MPLTEXT 1 0 34 "    hRS[i,i+1] := sqrt(gs+1-i)*T:\n" }
+{MPLTEXT 1 0 34 "    hAS[i,i+1] := sqrt(gs-1-i)*T:\n" }{MPLTEXT 1 0 
+10 "  end if:\n" }{MPLTEXT 1 0 4 "od:\n" }{MPLTEXT 1 0 1 "\n" }
+{MPLTEXT 1 0 2 "\n#" }{MPLTEXT 1 0 16 "GS; print(hGS):\n" }{MPLTEXT 1 
+0 1 "#" }{MPLTEXT 1 0 16 "CS; print(hCS):\n" }{MPLTEXT 1 0 16 "RS; pri
+nt(hRS):\n" }{MPLTEXT 1 0 15 "AS; print(hAS):" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "I+Par|]ymetrosG6\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "Q'SrF
+eO36\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "I#RSG6\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "I$hRSG6\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "I#ASG6\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "I$hASG6\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 38 "#####################################\n" }{MPLTEXT 1 
+0 38 "###    Energias e autovetores     ###\n" }{MPLTEXT 1 0 38 "#####
+################################\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 
+0 41 "ev_GS := evalf(Eigenvals(hGS, vhGS))[1];\n" }{MPLTEXT 1 0 1 "\n"
+ }{MPLTEXT 1 0 39 "psiGS := submatrix(vhGS, 1..gs, 1..1):\n" }{MPLTEXT
+ 1 0 1 "\n" }{MPLTEXT 1 0 39 "ev_CS := evalf(Eigenvals(hCS, psiCS));\n
+" }{MPLTEXT 1 0 39 "ev_RS := evalf(Eigenvals(hRS, psiRS));\n" }
+{MPLTEXT 1 0 38 "ev_AS := evalf(Eigenvals(hAS, psiAS));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "###################################
+##\n" }{MPLTEXT 1 0 38 "###          Operadores           ###\n" }
+{MPLTEXT 1 0 38 "#####################################\n" }{MPLTEXT 1 
+0 1 "\n" }{MPLTEXT 1 0 99 "O_CS  := array(1..gs, 1..gs):   for i from \+
+1 to gs do for j from 1 to gs do O_CS[i,j] := 0: od od:\n" }{MPLTEXT 
+1 0 104 "O_RSd := array(1..gs+1, 1..gs): for i from 1 to (gs+1) do for
+ j from 1 to gs do O_RSd[i,j] := 0: od od:\n" }{MPLTEXT 1 0 104 "O_RSp
+ := array(1..gs+1, 1..gs): for i from 1 to (gs+1) do for j from 1 to g
+s do O_RSp[i,j] := 0: od od:\n" }{MPLTEXT 1 0 103 "O_AS  := array(1..g
+s-1, 1..gs): for i from 1 to (gs-1) do for j from 1 to gs do O_AS[i,j]
+ := 0: od od:\n" }{MPLTEXT 1 0 104 "O_XAS := array(1..gs-1, 1..gs): fo
+r i from 1 to (gs-1) do for j from 1 to gs do O_XAS[i,j] := 0: od od:
+\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 26 "for i from 1 to (gs+1) do\n
+" }{MPLTEXT 1 0 21 "  if i < (gs+1) then\n" }{MPLTEXT 1 0 21 "    O_RS
+d[i,i] := 1:\n" }{MPLTEXT 1 0 23 "    O_RSp[i+1,i] := 1:\n" }{MPLTEXT 
+1 0 10 "  end if:\n" }{MPLTEXT 1 0 18 "  if i <= gs then\n" }{MPLTEXT 
+1 0 20 "    O_CS[i,i] := 1:\n" }{MPLTEXT 1 0 10 "  end if:\n" }
+{MPLTEXT 1 0 22 "  if i <= (gs-1) then\n" }{MPLTEXT 1 0 20 "    O_AS[i
+,i] := 1:\n" }{MPLTEXT 1 0 23 "    O_XAS[i,i+1] := 1:\n" }{MPLTEXT 1 
+0 10 "  end if:\n" }{MPLTEXT 1 0 3 "od:" }{MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "###################################
+##\n" }{MPLTEXT 1 0 38 "###          Intensidades         ###\n" }
+{MPLTEXT 1 0 37 "#####################################" }{MPLTEXT 1 0 
+1 "\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 29 "I_CS  := array(1..gs, 1.
+.2):\n" }{MPLTEXT 1 0 31 "I_RS  := array(1..gs+1, 1..2):\n" }{MPLTEXT 
+1 0 31 "I_RSd := array(1..gs+1, 1..2):\n" }{MPLTEXT 1 0 31 "I_RSp := a
+rray(1..gs+1, 1..2):\n" }{MPLTEXT 1 0 31 "I_AS  := array(1..gs-1, 1..2
+):\n" }{MPLTEXT 1 0 31 "I_XAS := array(1..gs-1, 1..2):\n" }{MPLTEXT 1 
+0 1 "\n" }{MPLTEXT 1 0 22 "for i from 1 to gs do\n" }{MPLTEXT 1 0 36 "
+  I_CS[i,1] := -(ev_CS[i] - ev_GS):\n" }{MPLTEXT 1 0 90 "  I_CS[i,2] :
+= (innerprod(transpose(submatrix(psiCS, 1..gs, i..i)), O_CS, psiGS)[1,
+1])^2:\n" }{MPLTEXT 1 0 4 "od:\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 
+26 "for i from 1 to (gs+1) do\n" }{MPLTEXT 1 0 37 "  I_RSd[i,1] := -(e
+v_RS[i] - ev_GS):\n" }{MPLTEXT 1 0 96 "  I_RSd[i,2] := n*(innerprod(tr
+anspose(submatrix(psiRS, 1..gs+1, i..i)), O_RSd, psiGS)[1,1])^2:\n" }
+{MPLTEXT 1 0 37 "  I_RSp[i,1] := -(ev_RS[i] - ev_GS):\n" }{MPLTEXT 1 
+0 95 "  I_RSp[i,2] := n*(innerprod(transpose(submatrix(psiRS, 1..gs+1,
+ i..i)), O_RSp, psiGS)[1,1])^2:" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 
+36 "  I_RS[i,1]  := -(ev_RS[i] - ev_GS):" }{MPLTEXT 1 0 1 "\n" }
+{MPLTEXT 1 0 15 "  I_RS[i,2] := " }{MPLTEXT 1 0 6 "(1/2)*" }{MPLTEXT 
+1 0 26 "(I_RSd[i,2] + I_RSp[i,2]):" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 
+0 4 "od:\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 26 "for i from 1 to (gs
+-1) do\n" }{MPLTEXT 1 0 34 "  I_AS[i,1] := (ev_AS[i] - ev_GS):" }
+{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 15 "  I_AS[i,2] := " }{MPLTEXT 1 0 
+83 "(10-n)*(innerprod(transpose(submatrix(psiAS, 1..gs-1, i..i)), O_AS
+, psiGS)[1,1])^2:" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 36 "  I_XAS[i,1]
+ := (ev_AS[i] - ev_GS):\n" }{MPLTEXT 1 0 93 "  I_XAS[i,2] := (innerpro
+d(transpose(submatrix(psiAS, 1..gs-1, i..i)), O_XAS, psiGS)[1,1])^2:" 
+}{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 4 "od:\n" }{MPLTEXT 1 0 1 "\n" }
+{MPLTEXT 1 0 14 "#print(I_CS):\n" }{MPLTEXT 1 0 15 "#print(I_RSd):\n" 
+}{MPLTEXT 1 0 15 "#print(I_RSp):\n" }{MPLTEXT 1 0 14 "#print(I_AS):\n"
+ }{MPLTEXT 1 0 15 "#print(I_XAS):\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 
+0 33 "I_NF := stackmatrix(I_RS, I_AS):\n" }{MPLTEXT 1 0 40 "I_NFl := s
+ort(convert(I_NF, listlist)):\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 
+58 "s_I_CS  := convert(sort(convert(I_CS, listlist)), array):\n" }
+{MPLTEXT 1 0 11 "s_I_RSd := " }{MPLTEXT 1 0 47 "convert(sort(convert(I
+_RSd, listlist)), array):" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 58 "s_I_
+RSp := convert(sort(convert(I_RSp, listlist)), array):" }{MPLTEXT 1 0 
+1 "\n" }{MPLTEXT 1 0 57 "s_I_AS  := convert(sort(convert(I_AS, listlis
+t)), array):" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 58 "s_I_XAS := conver
+t(sort(convert(I_XAS, listlist)), array):" }{MPLTEXT 1 0 1 "\n" }
+{MPLTEXT 1 0 57 "s_I_NF  := convert(sort(convert(I_NF, listlist)), arr
+ay):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "lor := proc(pts::li
+stlist, w)\n" }{MPLTEXT 1 0 24 "         local L, F, z:\n" }{MPLTEXT 
+1 0 1 "\n" }{MPLTEXT 1 0 22 "         #Lorentziana\n" }{MPLTEXT 1 0 
+64 "         #L := (i,x_0) -> (i/Pi)*((w/2)/((x-x_0)^2 + (w/2)^2)):\n"
+ }{MPLTEXT 1 0 55 "         #L := (i,x_0) -> i*((w^2)/((x-x_0)^2 + w^2
+)):\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 20 "         #Gaussiana\n" }
+{MPLTEXT 1 0 27 "         L := (i,x_0) -> (i" }{MPLTEXT 1 0 43 "/(w*sq
+rt(2*Pi)))*exp(-((x-x_0)^2)/(2*w^2));" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 
+1 0 17 "         F := 0:\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 37 "   \+
+     for z from 1 to nops(pts) do\n" }{MPLTEXT 1 0 51 "          F := \+
+evalf(F + L(pts[z][2], pts[z][1]));\n" }{MPLTEXT 1 0 12 "        od:\n
+" }{MPLTEXT 1 0 10 "end proc:\n" }{MPLTEXT 1 0 1 "\n" }{MPLTEXT 1 0 
+31 "P1 := plots[pointplot](I_NFl):\n" }{MPLTEXT 1 0 40 "P2 := plot(lor
+(I_NFl, 0.4), x=-50..50):\n" }{MPLTEXT 1 0 46 "plots[display](P1, P2, \+
+view=[-25..25, 0..10]);" }}{PARA 13 "" 1 "" {TEXT 218 0 "" }{TEXT 218 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "int(lor(I_NFl,0.1),x
+=-50..50);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "writedata(cat
+(fname, \"_NF.dat\"), s_I_NF):" }}}}
+{MARK "0 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2
+ 33 1 1 }

@@ -1,0 +1,28 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "y=y0 + (A/(w*sqrt(Pi
+/2)))*exp(-2*((x-xc)/w)^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%\"yG,
+&%#y0G\"\"\"*,%\"AGF'%\"wG!\"\"\"\"##F'F,%#PiG#F+F,-%$expG6#,$*(F,F',&
+%\"xGF'%#xcGF+F,F*!\"#F+F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 628 "restart:\n\nassume(n::integer):\nassume(states::integer):\n\nxm
+in:=-30;\nxmax:=10;\nn:=400;\nstates:=24;\n\n\n\nfor i from 1 to n+1 d
+o\n  x[i]:=evalf(xmin+(xmax-xmin)*(i-1)/n):\n\011 y[i]:=0:\n\011 w[i]:
+=1:\nod:\n\naux:=readdata(\"DATA.dat\",3):\nfor i from 1 to states do
+\n  x[i+n+1]:=aux[i,1]: y[i+n+1]:=aux[i,2]: w[i+n+1]:=aux[i,3]\nod:\n
+\n\nfor i from 1 to n+states+1 do\n  F[i]:=0\nod:\n\nfor i from 1 to s
+tates+n+1 do\n  for j from 1 to states+n+1 do \n      F[i]:=evalf(F[i]
+ + (y[j]/(w[j]*sqrt(Pi/2)))*exp(-2*((x[i]-x[j])/w[j])^2))\n  od:\nod:
+\n\nout:=matrix(n+1,2):\nfor i from 1 to n+1 do\n  out[i,1]:=x[i]: out
+[i,2]:=F[i]   \nod:\nwritedata(\"GAUSS.dat\",out):\n\nFim;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%%xminG!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%%xmaxG\"#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"$+%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'statesG\"#C" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%$FimG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}}{MARK "1 0 0" 624 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 
+0 1 2 33 1 1 }

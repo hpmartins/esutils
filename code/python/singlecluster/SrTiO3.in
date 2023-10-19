@@ -1,0 +1,66 @@
+# Options
+export: 1
+plot: 1
+dev: 0 # nao faz voigt, nao faz nada demorado. so pra testes
+
+# CI config
+start:    [0,0,0,0,0, 0,0,0,0,0]
+coherent: [0,0,0,0,0, 0,0,0,0,0]
+maxholes: 4
+rs_no_elec: 1
+
+# Main model parameters
+D:  4.5
+U:  4.0
+Ts: 4.5
+
+# Multiplet parameters
+Dq: 0.15
+J:  0.20
+
+# Coherent band parameters
+Dc: 0
+Tc: 0
+
+# Ligand parameters
+pp: 0
+pps: 0.70
+Ep: -6.0
+
+# Slater integrals and Kanamori parameters
+kanamori: 0
+F_red: 0.0
+F2: 0
+F4: 0
+
+# Hybridization renormalization
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+
+coreopt:
+    exp: 'exp/SrTiO3_core.dat'
+    bg: 0
+    so: 5.7
+    p: 458.2
+    wG: 0.7
+    wL: 0.8
+    aL: 0.1
+
+vbopt:
+    exp: 'exp/SrTiO3_VB.dat'
+    bg: 0
+    csecd: 1
+    csecp: 1
+    octmult: 1
+    wG_oct: 1.2
+    wG: 0.80
+    wL: 0.2
+    aL: 0.2
+    p: 6.8
+    
+xasopt:
+    exp: 'exp/SrTiO3_XAS.dat'
+    wG: 0.4
+    wL: 0.3
+    aL: 0.4
+    p: 531.0

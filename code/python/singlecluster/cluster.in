@@ -1,0 +1,79 @@
+# Options
+# export: exporta ou não os dados na pasta out
+# plot: plotar ou não os gráficos
+export: 0
+plot:   1
+
+# CI config
+# start: config ionica inicial (ordem: t2g/eg up, t2g/eg down)
+# maxholes: numero maximo de Ls na expansao
+start: [1,1,1,0,0, 1,1,1,0,0]
+maxholes: 5
+
+# Main model parameters
+D:  0.0
+U:  0.0
+Ts: 0.0
+
+# Multiplet parameters
+Dq: 0.0
+J:  0.0
+
+# Coherent band
+coherent: [0,0,0,0,0, 0,0,0,0,0]
+Dc: 0.0
+Tc: 0.0
+
+# Ligand parameters
+# pp: 0/1, flag para adicionar os termos pps-ppp na energia
+# pps: valor do pps
+# Ep: energia dos niveis p e do octaedro
+pp: 1
+pps: 0.85
+Ep: -6.1
+
+# Slater integrals and Kanamori parameters
+# kanamori: 0/1, flag para incluir u e u'
+# F_red: reducao de F2 e F4. 0.8 para 80%
+kanamori: 0
+F_red: 0.0
+F2: 0
+F4: 0
+
+# Hybridization renormalization
+# Multiplicador para T por orbital
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+
+#### Plot options
+# exp: arquivo em duas colunas (energia e intensidade)
+# so: separacao spin-orbita para o espectro de nivel interno
+# p: posicao do primeiro pico em cada espectro
+# wG, wL: larguras a meia altura da gaussiana (wG) e lorentziana (wL)
+# aL: parametro para o alargamento da lorentziana, variando com a energia. wL = wL0[1 + aL(E - E0)]
+# csecd, csecp, csecoct: secoes de choque d, p e do octaedro
+coreopt:
+    exp: 'exp/Rh2O3_core.dat'
+    so: 25.0
+    p: 497.8
+    wG: 1.0
+    wL: 0.3
+    aL: 0.1
+
+vbopt:
+    exp: 'exp/Rh2O3_VB.dat'
+    csecd: 2.0
+    csecp: 0.15
+    csecoct: 0.15
+    wG_oct: 1.0
+    wG: 0.8
+    wL: 0.2
+    aL: 0.2
+    p: 2.0
+    
+xasopt:
+    exp: 'exp/Rh2O3_XAS.dat'
+    wG: 0.5
+    wL: 0.2
+    aL: 0.5
+    p: 530.6

@@ -1,0 +1,84 @@
+#http://journals.aps.org/prb/abstract/10.1103/PhysRevB.53.1161
+
+export: 0
+remake: 1
+
+start: 
+   - [1,1,0,0,0, 0,0,0,0,0,   1,1,1,1,1, 1,1,1,1,1]
+coherent:
+   - [0,0,0,0,0, 0,0,0,0,0,   0,0,0,0,0, 0,0,0,0,0]
+
+rs_no_elec: 
+   - [0, 0]
+bs_transfer: 0
+
+maxholes: 5
+
+D1: 4.0
+U1: 4.0
+Ts1: 3.5
+Dq1: 0.0
+J1: 0.0
+
+D2: 100.0
+U2: 0
+Ts2: 0
+Dq2: 0.0
+J2: 0.0
+
+
+Dc1: 0.0
+Tc1: 0.0
+
+Dc2: 0.0
+Tc2: 0.0
+
+pps1: 0.0
+pps2: 0.0
+pps:  0.0
+
+kanamori: 0
+Tp: 0
+
+F_red1: 0
+F_red2: 0
+F21: 0
+F41: 0
+F22: 0.0
+F42: 0.0 
+
+Ep: 0
+Ep_oct: 0
+mu1: 0
+mu2: 0
+
+cfg:
+    cs_exp: ['exp/LaVO3_Core.dat', '']
+    cs_wL: 0.2
+    cs_aL: 0.5
+    cs_wG: 0.6
+    cs_bg: 1
+    cs_bg_exp: 1
+    cs_so:
+        - [7.5, 6.0]
+    cs_p:
+        - [0, 458.0]
+    cs_n1: 1
+    cs_n2: 1
+    vb_exp: ['exp/STRO050VB_old.dat']
+    vb_wL: 0.0
+    vb_aL: 0.0
+    vb_wG: 1.0
+    vb_p1: 0.50
+    vb_csec1: 1
+    vb_csec2: 1
+    vb_csecp: 1
+    vb_csecoct: 1
+    xas_exp: ['exp/STROXAS.dat']
+    xas_wL: 0.00
+    xas_aL: 0.00
+    xas_wG: 0.50
+    xas_p1: 529.2
+    x_win: 20
+    x_step: 0.1
+    a_max: 0.0001

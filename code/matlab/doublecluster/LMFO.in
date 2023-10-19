@@ -1,0 +1,104 @@
+export: 0
+remake: 1
+
+weight: 
+ - [1, 1]
+
+start: 
+   - [1,1,1,1,0, 0,0,0,0,0,   0,0,0,0,0, 1,1,1,1,1]
+coherent:
+   - [0,0,0,0,0, 0,0,0,0,0,   0,0,0,0,0, 0,0,0,0,0]
+
+maxholes: 5
+Ep: -5.1
+
+### Manganes ###
+#review
+D1: 4.3 #4.3
+U1: 7.5 #7.5
+Ts1: 2.6 #pds=1.75, Ts=3.01
+Dq1: 0.10
+J1: 0.95
+
+### Ferro ###   
+#review #sfmo
+D2: 3.1 #2.1 #2.8
+U2: 6.5 #7.5 #7.0
+Ts2: 1.9 #2.4 #2.4
+Dq2: 0.15 # 1.7
+J2: 0.65
+
+Dc1: 0.0
+Tc1: 0.0
+
+Dc2: 0.0
+Tc2: 0.0
+
+pps1: 0.65
+pps2: 0.65
+
+rs_no_elec: 
+   - [0, 0]
+# peso do p em cada cluster pros removal no elec
+rs_no_elec_p_wt:
+   - [0, 0]
+
+bs_transfer: 0
+
+kanamori: 1
+pp: 0
+
+Tm:
+   - [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+F_red1: 0.8
+F_red2: 0.8
+F21: 11.41486
+F41: 7.14764
+F22: 12.04291
+F42: 7.53454
+
+
+cfg:
+    cs_exp: ['exp/LMFO-core-Mn2p.txt', 'exp/LMFO-core-Fe2p.txt']
+    cs_wL:
+        - [1, 1, 1, 1]
+    cs_aL:
+        - [0.1, 0.1, 0.1, 0.1]
+    cs_wG:
+        - [0.8, 0.8, 0.8, 0.8]
+    cs_bg: 1
+    cs_bg_exp: 0
+    cs_so:
+        - [11.7, 13.7]
+    cs_p:
+        - [641.7, 710.9]
+    core_csec1: 1
+    core_csec2: 1
+    cs_n1: 1
+    cs_n2: 1
+    vb_exp: ['exp/LFMO_VB.dat']
+    vb_rpes: ['exp/LMFO-RPES-Mn3d.txt', 'exp/LMFO-RPES-Fe3d.txt']
+    vb_wL: 0.10
+    vb_aL: 0.05
+    vb_wG_d:
+        - [0.5, 0.5]
+    vb_wG_p:
+        - [0.5, 0.5]
+    vb_wG_oct: 
+        - [0.8, 0.8]
+    vb_bg: 0
+    vb_p1: 1.3
+    vb_csec1: 0.63 # 0.63
+    vb_csec2: 1.20 # 1.00
+    vb_csecp: 0.13 # 0.11
+    vb_oct_mult: 
+        - [1.0, 1.0]
+    xas_exp: ['exp/LFMO_XAS.dat']
+    xas_wL: 0.30
+    xas_aL: 0.20
+    xas_wG: 0.30
+    xas_p1: 1.5
+    x_win: 20
+    x_step: 0.1
+    a_max: 0.0001

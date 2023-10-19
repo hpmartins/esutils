@@ -1,0 +1,106 @@
+export: 1
+remake: 1
+
+shift_rs:
+ - [0.0, -3.6]
+
+shift_as:
+ - [0.0, -3.6]
+
+weight_as: 
+ - [0.60, 0.40]
+
+start: 
+   - [1,1,1,0,0, 1,0,0,0,0,   0,0,0,0,0, 0,0,0,0,0]
+coherent:
+   - [0,0,0,0,0, 1,1,1,0,0,   0,0,0,0,0, 0,0,0,0,0]
+
+rs_no_elec: 
+   - [0, 1]
+# peso do p em cada cluster pros removal no elec
+rs_no_elec_p_wt:
+   - [0, 0]
+bs_transfer: 1
+
+maxholes: 3
+
+D1: 1.4 #1.4
+U1: 5.0 #5.0
+Ts1: 1.70 #1.7
+Dq1: 0.44 #0.44
+J1: 0.75 #0.75
+
+D2: 4.2 #4.2
+U2: 4.0 #4.0
+Ts2: 3.9 #3.9
+Dq2: 0.18 #0.20
+J2: 0.20 #0.20
+
+Dc1: 0.6 #0.60
+Tc1: 0.30 #0.30
+
+Dc2: 0.0
+Tc2: 0.0
+
+pps1: 0.0 #63 #65
+pps2: 0.0
+pps:  0.60
+
+kanamori: 0
+Tp: 0
+
+Tm:
+   - [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+F_red1: 0
+F_red2: 0
+F21: 0
+F41: 0
+F22: 0.0
+F42: 0.0 
+
+Ep: -6.2
+Ep_oct: -6.2
+mu1: 0
+mu2: 0
+
+cfg:
+    cs_exp: ['exp/Ru60_core.dat', '']
+    cs_wL: 
+        - [1.0, 1.0, 0.2, 0.2]
+    cs_aL: 
+        - [0.05, 0.05, 0.01, 0.01]
+    cs_wG:  
+        - [0.8, 0.8, 0.8, 0.8]
+    cs_bg: 1
+    cs_bg_exp: 1
+    cs_so:
+        - [23.0, 5.8]
+    cs_p:
+        - [463.0, 458.2]
+    core_csec1: 0.6
+    core_csec2: 0.16
+
+    vb_exp: ['exp/Ru60_VB.dat'] #Ru20_VB.dat STRO50_VB.dat
+    vb_rpes: ['', '']
+    vb_wL: 0.25
+    vb_aL: 0.10
+    vb_wG_d:
+        - [0.70, 0.70]
+    vb_wG_p:
+        - [0.70, 0.70]
+    vb_wG_oct: 0.85
+    vb_bg: 1
+    vb_p1: 0.55 #25 #50 #75
+    vb_csec1: 0.50
+    vb_csec2: 0.002
+    vb_csecp: 0.02
+    vb_csecoct: 0.25
+    xas_exp: ['exp/Ru60_XAS.dat']
+    xas_wL: 0.15
+    xas_aL: 0.40
+    xas_wG: 0.40
+    xas_p1: 529.1
+    x_win: 10
+    x_step: 0.1
+    a_max: 0.0001

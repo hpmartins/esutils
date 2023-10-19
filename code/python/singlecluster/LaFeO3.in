@@ -1,0 +1,66 @@
+# Options
+export: 1
+plot: 1
+dev: 1 # nao faz voigt, nao faz nada demorado. so pra testes
+
+# CI config
+start:    [1,1,1,1,1, 0,0,0,0,0]
+coherent: [0,0,0,0,0, 0,0,0,0,0]
+maxholes: 10
+rs_no_elec: 1
+
+# Main model parameters
+D:  3.1
+U:  6.5
+Ts: 1.9
+
+# Multiplet parameters
+Dq: 0.15
+J:  0.65
+
+# Coherent band parameters
+Dc: 0.0
+Tc: 0.0
+
+# Ligand parameters
+pp: 0
+pps: 0.65
+Ep: -5.1
+
+# Slater integrals and Kanamori parameters
+kanamori: 1
+F_red: 0.8
+F2: 12.04291
+F4: 7.53454
+
+# Hybridization renormalization
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+
+coreopt:
+    exp: 'exp/LMFO-core-Fe2p.txt'
+    bg: 0
+    so: 13.7
+    p: 710.9
+    wG: 0.8
+    wL: 1.0
+    aL: 0.1
+
+vbopt:
+    exp: ''
+    bg: 0
+    csecd: 1.00
+    csecp: 0.13
+    octmult: 1
+    wG_oct: 0.8
+    wG: 0.5
+    wL: 0.10
+    aL: 0.05
+    p: 3
+    
+xasopt:
+    exp: 'exp/LMFO_XAS.txt'
+    wG: 0.3
+    wL: 0.3
+    aL: 0.2
+    p: 2.8

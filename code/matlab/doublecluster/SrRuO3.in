@@ -1,0 +1,108 @@
+export: 1
+remake: 1
+
+shift_rs:
+ - [-3.6, 0]
+
+shift_as:
+ - [-3.6, 0]
+
+weight: 
+ - [1.0, 1.0]
+
+start: 
+   - [1,1,1,0,0, 1,0,0,0,0,   0,0,0,0,0, 0,0,0,0,0]
+coherent:
+   - [0,0,0,0,0, 1,1,1,0,0,   0,0,0,0,0, 0,0,0,0,0]
+
+rs_no_elec: 
+   - [1, 1]
+# peso do p em cada cluster pros removal no elec
+rs_no_elec_p_wt:
+   - [1, 0]
+bs_transfer: 0
+
+maxholes: 4
+
+D1: 1.4 
+U1: 5.0
+Ts1: 1.8
+Dq1: 0.40 
+J1: 0.75 
+
+D2: 500.0
+U2: 500.0
+Ts2: 0
+Dq2: 0
+J2: 0
+
+Dc1: 0.6
+Tc1: 0.25
+
+Dc2: 0
+Tc2: 0
+
+pps1: 0.62
+pps2: 0.62
+pps:  0.62
+
+kanamori: 0
+Tp: 0
+
+Tm:
+   - [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+F_red1: 0.0
+F_red2: 0.0
+F21: 0.0
+F41: 0.0
+F22: 0.0
+F42: 0.0 
+
+Ep: -6.7
+Ep_oct: -6.7
+mu1: 0.0
+mu2: 0.0
+
+cfg:
+    cs_exp: ['exp/SrRuO3_core2.dat', '']
+    cs_wL: 
+        - [1.0, 1.0, 0.1, 0.1]
+    cs_aL: 
+        - [0.1, 0.1, 0.1, 0.1]
+    cs_wG:  
+        - [0.8, 0.8, 0.8, 0.8]
+    cs_bg: 1
+    cs_bg_exp: 1
+    cs_so:
+        - [22.2, 6.0]
+    cs_p:
+        - [463.4, 458.0]
+
+    core_csec1: 1
+    core_csec2: 0.00000001
+
+    vb_exp: ['exp/SrRuO3_VB.dat']
+    vb_rpes: ['exp/Ru50_RPES.dat', '']
+    vb_wL: 0.30
+    vb_aL: 0.10
+    vb_wG_d:
+        - [0.60, 0.60]
+    vb_wG_p:
+        - [0.90, 0.90]
+    vb_wG_oct: 
+        - [1.2, 1.2]
+    vb_bg: 1
+    vb_p1: 0.6
+    vb_csec1: 1
+    vb_csec2: 0.0
+    vb_csecp: 0.08
+    vb_csecoct: 0.04
+    xas_exp: ['exp/SrRuO3_XAS.dat']
+    xas_wL: 0.15
+    xas_aL: 0.40
+    xas_wG: 0.40
+    xas_p1: 527.7
+    x_win: 10
+    x_step: 0.1
+    a_max: 0.0001

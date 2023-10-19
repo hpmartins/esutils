@@ -1,0 +1,65 @@
+# Options
+export: 1
+plot: 1
+dev: 0 # nao faz voigt, nao faz nada demorado. so pra testes
+
+# CI config
+start:    [1,1,1,1,1, 1,1,1,0,0]
+coherent: [0,0,0,0,0, 0,0,0,0,0]
+maxholes: 10
+rs_no_elec: 0
+
+# Main model parameters
+D:  4.0
+U:  7.5
+Ts: 2.5
+
+# Multiplet parameters
+Dq: 0.0
+J:  0.0
+
+# Coherent band parameters
+Dc: 0.0
+Tc: 0.0
+
+# Ligand parameters
+pp: 0
+pps: 0.48
+Ep: -3.8
+
+# Slater integrals and Kanamori parameters
+kanamori: 0
+F_red: 0.8
+F2: 12.2247748
+F4: 7.583122
+
+# Hybridization renormalization
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+coreopt:
+    exp: 'exp/NiO_core.dat'
+    bg: 1
+    so: 20.0
+    p: 854.5
+    wG: 1.0
+    wL: 0.3
+    aL: 0.1
+
+vbopt:
+    exp: 'exp/NiO_VB.dat'
+    bg: 0
+    csecd: 1.0
+    csecp: 0.1
+    octmult: 0.3
+    wG_oct: 1.0
+    wG: 0.6
+    wL: 0.0
+    aL: 0.0
+    p: 0.6
+    
+xasopt:
+    exp: 'exp/NiO_XAS.dat'
+    wG: 0.5
+    wL: 0.2
+    aL: 0.5
+    p: 530.6

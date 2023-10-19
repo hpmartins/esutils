@@ -1,0 +1,80 @@
+export: 1
+remake: 1
+
+start: 
+   - [1,1,1,1,1, 0,0,0,0,0,   0,0,0,0,0, 1,0,0,0,0]
+
+rs_no_elec:
+    - [1, 1]
+rs_no_elec_p_wt:
+    - [1, 1]
+maxholes: 5
+Ep: -5.9
+kanamori: 1
+pp: 0
+
+### Ferro
+#artigo_xas #review_d5 #viviane_d2
+D1: 3.0 #3.0 #2.3
+U1: 7.5 #7.0 #7.5
+Ts1: 2.1 #2.3 #2.4
+Dq1: 0.13 #0.12
+J1: 0.8
+pps1: 0.70
+F_red1: 0.8
+F21: 12.1208
+F41: 7.5782
+
+### Molibdênio
+D2: 6.1 #4.0 #Cr #6.9
+U2: 2.6 #4.0 #<5 #2.0
+Ts2: 3.9 #3.5 #Cr,pds~2.2 #3.0
+Dq2: 0.33 #3.3 #3.6
+J2: 0.6 #0.37
+pps2: 0.70
+F_red2: 0.8
+F22: 8.2333352
+F42: 5.4475684
+
+
+cfg:
+    cs_exp: ['exp/SFMO_core_Fe2p.dat', 'exp/SFMO_core_Mo3p.dat']
+    cs_wL:
+        - [1.6, 1.6, 1.4, 1.4]
+    cs_aL:
+        - [0.18, 0.14, 0.18, 0.14]
+    cs_wG:
+        - [0.8, 0.8, 0.8, 0.8]
+    cs_bg: 1
+    cs_bg_exp: 1
+    cs_so:
+        - [13.5, 17.3]
+    cs_p:
+        - [710.9, 398.4]
+    core_csec1: 1
+    core_csec2: 1
+    vb_exp: ['exp/SFMO_VB.dat']
+    vb_rpes: ['', 'exp/SFMO_RPES_Mo4d.dat']
+    vb_wL: 0.1
+    vb_aL: 0.0
+    vb_wG_d:
+        - [0.3, 0.3]
+    vb_wG_p:
+        - [0.3, 0.3]
+    vb_wG_oct:
+        - [0.3, 0.3]
+    vb_p1: 1.0
+    vb_csec1: 0.70
+    vb_csec2: 0.20
+    vb_csecp: 0.08
+    vb_oct_mult:
+        - [1, 1]
+    vb_bg: 0
+    xas_exp: ['exp/SFMO_XAS.dat']
+    xas_wL: 0.1
+    xas_aL: 0.01
+    xas_wG: 0.5
+    xas_p1: 530.2
+    x_win: 10
+    x_step: 0.1
+    a_max: 0.00001

@@ -1,0 +1,107 @@
+export: 1
+remake: 1
+
+#shift_rs:
+# - [0.0, -3.6]
+
+#shift_as:
+# - [0.0, -3.6]
+
+weight: 
+ - [1.0, 1.0]
+
+start: 
+   - [1,1,1,0,0, 1,0,0,0,0,   0,0,0,0,0, 0,0,0,0,0]
+coherent:
+   - [0,0,0,0,0, 1,1,1,0,0,   0,0,0,0,0, 0,0,0,0,0]
+
+rs_no_elec: 
+   - [0, 1]
+# peso do p em cada cluster pros removal no elec
+rs_no_elec_p_wt:
+   - [0, 1]
+bs_transfer: 1
+
+maxholes: 4
+
+D1: 1.4 #1.4
+U1: 5.0 #5.0
+Ts1: 1.70 #1.7
+Dq1: 0.44 #0.44
+J1: 0.75 #0.75
+
+D2: 4.2 #4.2
+U2: 4.0 #4.0
+Ts2: 3.9 #3.9
+Dq2: 0.18 #0.20
+J2: 0.20 #0.20
+
+Dc1: 0.6 #0.60
+Tc1: 0.30 #0.30
+
+Dc2: 0.0
+Tc2: 0.0
+
+pps1: 0.70 
+pps2: 0.70
+
+kanamori: 0
+pp: 0
+
+Tm:
+   - [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+F_red1: 0
+F_red2: 0
+F21: 0
+F41: 0
+F22: 0.0
+F42: 0.0 
+
+Ep: -6.7
+Ep_oct: -6.7
+mu1: 0
+mu2: 0
+
+cfg:
+    cs_exp: ['exp/STRO_core.dat', '']
+    cs_wL: 
+        - [1.0, 1.0, 0.8, 0.8]
+    cs_aL: 
+        - [0.30, 0.30, 0.10, 0.10]
+    cs_wG:  
+        - [1.0, 1.0, 0.7, 0.7]
+    cs_bg: 0
+    cs_bg_exp: 1
+    cs_so:
+        - [22.5, 5.8]
+    cs_p:
+        - [463.0, 457.9]
+    core_csec1: 1.0
+    core_csec2: 0.36
+
+    vb_exp: ['exp/STRO50_VB.dat'] #Ru20_VB.dat STRO50_VB.dat
+    vb_rpes: ['exp/Ru50_RPES.dat', '']
+    vb_wL: 0.20
+    vb_aL: 0.20
+    vb_wG_d:
+        - [0.7, 0.7]
+    vb_wG_p:
+        - [1.2, 1.2]
+    vb_wG_oct: 
+        - [1.2, 1.2]
+    vb_bg: 0
+    vb_p1: 0.40 #25 #50 #75
+    vb_csec1: 1.0
+    vb_csec2: 0.08
+    vb_csecp: 0.08
+    vb_oct_mult: 
+        - [1, 1]
+    xas_exp: ['exp/STROXAS.dat']
+    xas_wL: 0.2
+    xas_aL: 0.2
+    xas_wG: 0.40
+    xas_p1: 529.0
+    x_win: 10
+    x_step: 0.1
+    a_max: 0.0001

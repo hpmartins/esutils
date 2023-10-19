@@ -1,0 +1,65 @@
+# Options
+export: 0
+plot: 1
+dev: 1
+
+# CI config
+start:    [1,1,1,1,0, 0,0,0,0,0]
+coherent: [0,0,0,0,0, 0,0,0,0,0]
+maxholes: 10
+rs_no_elec: 0
+
+# Main model parameters
+D:  3.0
+U:  4.0
+Ts: 1.00
+
+# Multiplet parameters
+Dq: 0.10
+J:  0.50
+
+# Coherent band parameters
+Dc: 0.0
+Tc: 0.0
+
+# Ligand parameters
+pp: 0
+pps: 0.65
+Ep: -5.0
+
+# Slater integrals and Kanamori parameters
+kanamori: 0
+F_red: 0.0
+F2: 0.0
+F4: 0.0
+
+# Hybridization renormalization
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+coreopt:
+    exp: 'exp/SrFeO3_core.dat'
+    bg: 0
+    so: 13.2
+    p: 0.0
+    wG: 0.9
+    wL: 1.2
+    aL: 0.17
+
+vbopt:
+    exp: 'exp/SrFeO3_VB.dat'
+    bg: 0
+    csecd: 1
+    csecp: 0.05
+    octmult: 1.0
+    wG_oct: 0.90
+    wG: 0.60
+    wL: 0.35
+    aL: 0.25
+    p: 0.50
+    
+xasopt:
+    exp: 'exp/SrFeO3_XAS.dat'
+    wG: 0.6
+    wL: 0.35
+    aL: 0.2
+    p: 528.0

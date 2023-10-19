@@ -1,0 +1,83 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Programa Dispersion     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+clear all;
+clc
+
+% Model Parameters
+
+delta = 0.05;
+t = -1;
+
+% Energy scale
+
+first = -10.0;
+step = 0.05;
+numb = 401;
+for w=1:numb
+    e(w) = first + (w-1)*step;
+end
+
+% Load data
+
+spec = load('DATA.dat','-ascii');
+states = 4;
+
+% Green function
+
+um = eye(2);
+
+kpoints = 32;
+
+for q = 0:kpoints
+    
+    k = q*pi/kpoints;
+
+    V = [            0  t*exp(-i*2*k)
+         t*exp(+i*2*k)             0];
+
+     for w = 1:numb
+         count = 2;
+         for m = 1:2
+             for n = 1:2
+                 g0(m,n)=0;
+                 for j=1:states
+                     g0(m,n) = g0(m,n) + ( spec(j,count) / (e(w) - spec(j,1) + i*delta) );
+                 end
+                 count = count + 1;
+             end
+         end
+         GG = inv(um-g0*V)*g0;
+         G(w,q+1) = 0;
+         for m = 1:2
+             for n = 1:2
+                 G(w,q+1) = G(w,q+1) + exp(-i*k*(m-n))*GG(m,n)/2;
+             end
+         end
+    end
+end
+
+% Saving routine
+
+table(1,1) = 0;
+for w=1:numb
+    table(w+1,1) = e(w);
+    for q=0:kpoints
+        table(1,q+2) = q/kpoints;
+        table(w+1,q+2) = -imag(G(w,q+1))/pi;
+    end
+end
+
+save table2.dat table -ascii
+
+for w=1:numb
+    spectral(w,1) = e(w);
+    for q=0:kpoints
+        spectral(w,q+2) = q-imag(G(w,q+1))/pi;
+    end
+end
+
+save spectral2.dat spectral -ascii
+
+% End of Program

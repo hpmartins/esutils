@@ -1,0 +1,66 @@
+# Options
+export: 1
+plot: 1
+dev: 0 # nao faz voigt, nao faz nada demorado. so pra testes
+
+# CI config
+start:    [1,1,1,0,0, 1,1,1,0,0]
+coherent: [0,0,0,0,0, 0,0,0,0,0]
+maxholes: 10
+rs_no_elec: 0
+
+# Main model parameters
+D:  3.5
+U:  6.5
+Ts: 2.9
+
+# Multiplet parameters
+Dq: 0.30
+J:  0.0
+
+# Coherent band parameters
+Dc: 6.0
+Tc: 0.1
+
+# Ligand parameters
+pp: 1
+pps: 0.68
+Ep: -7.2
+
+# Slater integrals and Kanamori parameters
+kanamori: 0
+F_red: 0.9
+F2: 7.34
+F4: 4.83
+
+# Hybridization renormalization
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+
+coreopt:
+    exp: 'exp/Rh2O3_core.dat'
+    bg: 0
+    so: 25.0
+    p: 497.8
+    wG: 1.8
+    wL: 0.4
+    aL: 0.1
+
+vbopt:
+    exp: 'exp/Rh2O3_VB.dat'
+    bg: 0
+    csecd: 2.0
+    csecp: 0.04
+    octmult: 3.5
+    wG_oct: 1.0
+    wG: 0.6
+    wL: 0.2
+    aL: 0.2
+    p: 2.0
+    
+xasopt:
+    exp: 'exp/Rh2O3_XAS.dat'
+    wG: 0.5
+    wL: 0.2
+    aL: 0.5
+    p: 530.6

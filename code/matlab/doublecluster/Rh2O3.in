@@ -1,0 +1,99 @@
+remake: 1
+export: 1
+
+shift_rs:
+ - [0.0, 0]
+
+shift_as:
+ - [0.0, 0]
+
+start: 
+   - [1,1,1,0,0, 1,1,1,0,0,   0,0,0,0,0, 0,0,0,0,0]
+coherent:
+   - [1,1,1,0,0, 1,1,1,0,0,   0,0,0,0,0, 0,0,0,0,0]
+
+
+rs_no_elec: 
+   - [0, 0]
+bs_transfer: 0
+
+
+maxholes: 3
+D1: 5.0
+U1: 3.0
+Ts1: 3.8
+Dq1: 0.25
+J1: 0.1
+
+D2: 100.0
+U2: 100.5
+Ts2: 0
+Dq2: 0
+J2: 0.0
+
+Dc1: 3.0
+Tc1: 0.08
+
+Dc2: 0
+Tc2: 0
+
+pps1: 0.80
+pps2: 0.80
+pps:  0.80
+
+kanamori: 0
+Tp: 1
+
+Tm:
+   - [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+F_red1: 0
+F_red2: 0
+F21: 0
+F41: 0
+F22: 0.0
+F42: 0.0 
+
+Ep: -6.1
+Ep_oct: -6.1
+mu1: 0
+mu2: 0
+
+cfg:
+    cs_exp: ['exp/Rh2O3-Core.dat', '']
+    cs_wL: 
+        - [0.3, 0.1]
+    cs_aL: 
+        - [0.1, 0.1]
+    cs_wG:  
+        - [1.0, 0.0]
+    cs_bg: 1
+    cs_bg_exp: 1
+    cs_so:
+        - [25.0, 6]
+    cs_p:
+        - [497.8, 497.8]
+    core_csec1: 1
+    core_csec2: 0
+    vb_exp: ['exp/Rh2O3-BV.dat']
+    vb_bg: 1
+    vb_wL: 0.2
+    vb_aL: 0.1
+    vb_wG_d:
+        - [0.6, 0.5]
+    vb_wG_p:
+        - [0.5, 0.5]
+    vb_wG_oct: 0.8
+    vb_p1: 2.0
+    vb_csec1: 2
+    vb_csec2: 0
+    vb_csecp: 0.10
+    vb_csecoct: 0.5
+    xas_exp: ['exp/Rh2O3_XAS.dat']
+    xas_p1: 530.5
+    xas_wL: 0.1
+    xas_aL: 0.5
+    xas_wG: 0.6
+    x_win: 25
+    x_step: 0.1
+    a_max: 0.00001

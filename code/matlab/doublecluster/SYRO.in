@@ -1,0 +1,110 @@
+export: 1
+remake: 1
+
+weight: 
+ - [1.0, 1.0]
+
+shift_rs:
+ - [0.0, -0]
+
+shift_as:
+ - [0.0, -0]
+
+start: 
+   - [1,1,1,0,0, 0,0,0,0,0,   0,0,0,0,0, 0,0,0,0,0]
+coherent:
+   - [0,0,0,0,0, 0,0,0,0,0,   0,0,0,0,0, 0,0,0,0,0]
+
+rs_no_elec: 
+   - [0, 1]
+# peso do p em cada cluster pros removal no elec
+rs_no_elec_p_wt:
+   - [0, 0]
+bs_transfer: 0
+
+maxholes: 4
+
+D1: 1.4
+U1: 4.0
+Ts1: 1.6
+Dq1: 0.31
+J1: 0.58
+
+D2: 5.0
+U2: 5.0
+Ts2: 2.0
+Dq2: 0.40
+J2: 0.0
+
+Dc1: 0.0
+Tc1: 0.0
+
+Dc2: 0.0
+Tc2: 0.0
+
+pps1: 0.55
+pps2: 0.55
+
+
+kanamori: 0
+pp: 0
+
+Tm:
+   - [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+F_red1: 0
+F_red2: 0
+F21: 0
+F41: 0
+F22: 0.0
+F42: 0.0 
+
+Ep: -6.6
+Ep_oct: -6.6
+mu1: 0
+mu2: 0
+
+cfg:
+    cs_exp: ['SYRO_core.dat', '']
+    cs_wL:
+        - [0.50, 0.50, 0.50, 0.50]
+    cs_aL:
+        - [0.1, 0.1, 0.1, 0.1]
+    cs_wG:
+        - [0.8, 0.8, 0.8, 0.8]
+    cs_bg: 1
+    cs_bg_exp: 1
+    cs_so:
+        - [22.5, 0]
+    cs_p:
+        - [465.4, 0]
+    core_csec1: 1
+    core_csec2: 0.70
+
+    cs_n1: 1
+    cs_n2: 1
+    vb_exp: ['SYRO_VB-2.dat']
+    vb_rpes: ['SYRO_RPES-2.dat','']
+    vb_bg: 0
+    vb_wL: 0.20
+    vb_aL: 0.05
+    vb_wG_d:
+        - [0.8, 0.8]
+    vb_wG_p:
+        - [0.8, 0.8]
+    vb_wG_oct: 
+        - [1.2, 1.2]
+    vb_p1: 2.0
+    vb_csec1: 1
+    vb_csec2: 0.04
+    vb_csecp: 0.08
+    vb_oct_mult:
+        - [1.0, 1.0]
+    xas_exp: ['exp/SYRO-XAS.dat']
+    xas_wL: 0.00
+    xas_aL: 0.00
+    xas_wG: 0.50
+    xas_p1: 528.9
+    x_win: 20
+    x_step: 0.1
+    a_max: 0.0001

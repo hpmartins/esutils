@@ -1,0 +1,66 @@
+# Options
+export: 0
+plot: 1
+dev: 0 # nao faz voigt, nao faz nada demorado. so pra testes
+
+# CI config
+start:    [1,1,1,1,1, 1,0,0,0,0]
+coherent: [0,0,0,0,0, 0,0,0,0,0]
+maxholes: 10
+rs_no_elec: 0
+
+# Main model parameters
+D:  2.0
+U:  5.5
+Ts: 1.4
+
+# Multiplet parameters
+Dq: 0.13
+J:  0.9
+
+# Coherent band parameters
+Dc: 0.0
+Tc: 0.0
+
+# Ligand parameters
+pp: 0
+pps: 0.75
+Ep: -4.0
+
+# Slater integrals and Kanamori parameters
+kanamori: 0
+F_red: 0.8
+F2: 12.7214128
+F4: 7.94707568
+
+# Hybridization renormalization
+Tm: [1, 1, 1, 1, 1,     1, 1, 1, 1, 1]
+
+
+coreopt:
+    exp: 'exp/LSCO_0.0_core.txt'
+    bg: 0
+    so: 15.1
+    p: 779.5
+    wG: 0.9
+    wL: 1.2
+    aL: 0.17
+
+vbopt:
+    exp: 'exp/LSCO_0.0_vb.txt'
+    bg: 0
+    csecd: 0.003568
+    csecp: 0.0002524
+    octmult: 1.0
+    wG_oct: 0.90
+    wG: 0.60
+    wL: 0.1
+    aL: 0.15
+    p: 0.60
+    
+xasopt:
+    exp: 'exp/LSCO_0.0_xas.txt'
+    wG: 0.6
+    wL: 0.3
+    aL: 0.2
+    p: 530.0
