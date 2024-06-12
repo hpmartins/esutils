@@ -30,7 +30,7 @@ def importexp(fn, norm=True, nmin=True, delimiter=' ', col=1):
     if norm:
         for i in np.arange(np.size(I, axis=1)):
             I[:, i] = normalize(I[:, i], nmin=nmin)
-    return E, I
+    return np.array(E), np.array(I)
 
 def calc_xasmag(clcf, xr, shft=0.0, norm=True):
     # Data import
